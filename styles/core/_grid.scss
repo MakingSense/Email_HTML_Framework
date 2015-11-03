@@ -1,0 +1,53 @@
+/* ======================================== */
+/*   GRID SYSTEM
+/* ======================================== */
+
+.column--2,
+.column--3,
+.sidebar {
+    font-size: 0;
+
+    text-align: center;
+    .col {
+        display: inline-block;
+
+        width: 100%;
+
+        vertical-align: top;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.column--2 {
+    .col {
+        max-width: 300px;
+        img {
+            max-width: 280px;
+        }
+    }
+}
+
+.column--3 {
+    .col {
+        max-width: 200px;
+        img {
+            max-width: 180px;
+        }
+    }
+}
+
+.sidebar {
+
+    .col {
+        vertical-align: middle;
+    }
+    .left {
+        max-width: 100px;
+    }
+    .right {
+        max-width: 500px;
+    }
+}

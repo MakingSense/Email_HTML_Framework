@@ -1,0 +1,68 @@
+/* ======================================== */
+/*   TIPOGRAPHY
+/* ======================================== */
+
+body,
+table,
+h1,
+h2,
+h3,
+h4,
+p,
+td {
+    font-family: $base__font--family;
+    font-weight: $base__font--weight;
+    line-height: $base__font--size * $base__font--line-height;
+
+    margin: 0;
+    padding: 0;
+
+    text-align: $base__text--align;
+
+    color: $base__font--color;
+}
+
+h1 {
+    font-size: $h1__font--size;
+    line-height: $h1__font--size * $base__font--line-height;
+    padding: $base__wrapper--padding;
+}
+
+h2 {
+    font-size: $h2__font--size;
+    line-height: $h2__font--size * $base__font--line-height;
+    padding: $base__wrapper--padding;
+}
+
+h3 {
+    font-size: $h3__font--size;
+    line-height: $h3__font--size * $base__font--line-height;
+    padding: $base__wrapper--padding;
+}
+
+h4 {
+    font-size: $h4__font--size;
+    line-height: $h4__font--size * $base__font--line-height;
+    font-weight: 600;
+    padding: $base__wrapper--padding;
+}
+
+p {
+    font-size: $paragraph__font--size;
+    line-height: $paragraph__font--size * $paragraph__font--line-height;
+    color: $paragraph__font--color;
+}
+
+small {
+    font-size: $base__font--size--small;
+    line-height: $base__font--size--small * $base__font--line-height;
+}
+
+a {
+    font-size: $base__font--size;
+    line-height: $base__font--size * $base__font--line-height;
+
+    text-decoration: none;
+
+    color: $anchor__font--color;
+}

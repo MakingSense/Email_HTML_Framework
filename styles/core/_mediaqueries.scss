@@ -1,0 +1,19 @@
+/* ======================================== */
+/*   MEDIAQUERIES
+/* ======================================== */
+
+@media screen and (max-width: 414px) {
+    .column--2,
+    .column--3 {
+        .col {
+            max-width: 100%;
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+
+    .wrapper--inner{
+        *{text-align: center;}
+    }
+}

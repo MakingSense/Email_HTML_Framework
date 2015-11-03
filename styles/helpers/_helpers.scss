@@ -1,0 +1,34 @@
+/* ======================================== */
+/*   HELPERS
+/* ======================================== */
+
+//
+// #Vars
+/* ============== */
+
+$font_weight-light:             300;
+$font_weight-regular:           400;
+$font_weight-semibold:          500;
+$font_weight-bold:              700;
+
+.image--full-width{
+    width: 100%;
+    max-width: $base__wrapper--size;
+    height: auto;
+}
+
+.component__divider{
+    width: 100%;
+    border: 1px dashed #000;
+    display: block;
+    margin: 10px 0;
+}
+
+.text--left {text-align: left;}
+.text--right {text-align: right;}
+.text--center {text-align: center;}
+.text--light {font-weight: $font_weight-light;}
+.text--regular {font-weight: $font_weight-regular;}
+.text--semibold {font-weight: $font_weight-semibold;}
+.text--bold {font-weight: $font_weight-bold;}
+.text--uppercase {text-transform: uppercase;}

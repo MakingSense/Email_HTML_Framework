@@ -1,0 +1,48 @@
+/* ======================================== */
+/*   VARIABLES
+/* ======================================== */
+
+//
+// #COLOURS
+/* ======== */
+
+$base__background--color:             #ffffff;
+
+
+//
+// #GENERAL SIZES
+/* ============== */
+
+$base__wrapper--size:                 600px;
+$base__wrapper--padding:              5px;
+
+
+
+//
+// #TIPOGRAPHY
+/* =========== */
+
+// We use these to control font styles
+$base__font--color:                   #333333;
+$base__font--family:                  'Helvetica Neue', Helvetica, Arial, sans-serif;
+$base__font--weight:                  400;
+$base__font--line-height:             1.2;
+$base__font--size:                    13px;
+$base__text--align:                   left;
+
+// A general <small> styling
+$base__font--size--small:             10px;
+
+// We use these to control header font sizes
+$h1__font--size:                      41px;
+$h2__font--size:                      31px;
+$h3__font--size:                      23px;
+$h4__font--size:                      17px;
+
+// We use these to style paragraphs
+$paragraph__font--size:               13px;
+$paragraph__font--line-height:        1.4;
+$paragraph__font--color:              #999999;
+
+// We use these to style anchor
+$anchor__font--color:                 #333333;
