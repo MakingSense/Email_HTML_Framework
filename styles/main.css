@@ -204,7 +204,7 @@ blockquote {
   height: auto; }
 
 .component__divider {
-  width: 100%;
+  width: 99%;
   border: 1px dashed #000;
   display: block;
   margin: 10px 0; }
