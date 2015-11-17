@@ -17,6 +17,11 @@ $font_weight-bold:              700;
     height: auto;
 }
 
+.image__align--center{
+  display: block;
+  margin: 0 auto;
+}
+
 .component__divider{
     width: 99%;
     border: 1px dashed #000;
@@ -24,9 +29,10 @@ $font_weight-bold:              700;
     margin: 10px 0;
 }
 
-.text--left {text-align: left;}
-.text--right {text-align: right;}
-.text--center {text-align: center;}
+.content--left {text-align: left;}
+.content--right {text-align: right;}
+.content--center {text-align: center;}
+
 .text--light {font-weight: $font_weight-light;}
 .text--regular {font-weight: $font_weight-regular;}
 .text--semibold {font-weight: $font_weight-semibold;}

@@ -7,6 +7,8 @@
 	Company:    Making Sense
 	Version:    1.0
 	Author:     Email UI/UX Team
+
+	sass --compass --watch style.scss:main.css
 */
 /* ======================================== */
 /*   NORMALIZE
@@ -16,6 +18,7 @@
 /* ======================================== */
 /* ======== */
 /* ============== */
+/* =========== */
 /* =========== */
 body {
   width: 100% !important;
@@ -203,19 +206,23 @@ blockquote {
   max-width: 600px;
   height: auto; }
 
+.image__align--center {
+  display: block;
+  margin: 0 auto; }
+
 .component__divider {
   width: 99%;
   border: 1px dashed #000;
   display: block;
   margin: 10px 0; }
 
-.text--left {
+.content--left {
   text-align: left; }
 
-.text--right {
+.content--right {
   text-align: right; }
 
-.text--center {
+.content--center {
   text-align: center; }
 
 .text--light {
@@ -287,3 +294,54 @@ a {
   line-height: 15.6px;
   text-decoration: none;
   color: #333333; }
+
+table.button {
+  width: 100%; }
+  table.button td {
+    width: 100%; }
+  table.button table {
+    width: 100%; }
+  table.button div {
+    display: inline-block;
+    border: 0px solid transparent;
+    width: 100%;
+    max-width: 100%; }
+    table.button div td {
+      vertical-align: top;
+      border-radius: 90px;
+      -webkit-border-radius: 90px;
+      -moz-border-radius: 90px;
+      color: white;
+      background-color: #585858;
+      vertical-align: middle;
+      padding: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+      text-align: center; }
+    table.button div a {
+      display: block;
+      text-decoration: none;
+      -webkit-text-size-adjust: none;
+      text-align: center;
+      background-color: #585858;
+      color: white !important;
+      line-height: 50px;
+      border-radius: 90px;
+      -webkit-border-radius: 90px;
+      -moz-border-radius: 90px;
+      text-decoration: none; }
+    table.button div p {
+      margin: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+      font-size: 15px;
+      line-height: 50px;
+      color: white !important;
+      text-align: center; }
+
+table.button.content--center td:first-child {
+  text-align: center; }
+
+table.button.content--left td:first-child {
+  text-align: left; }
+
+table.button.content--right td:first-child {
+  text-align: right; }
