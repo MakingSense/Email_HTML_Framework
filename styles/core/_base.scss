@@ -7,6 +7,11 @@
 
     table-layout: fixed;
 
+    & .wrapper--row{
+      width: 100%;
+      table-layout: fixed;
+    }
+
     & .wrapper--webkit {
         max-width: $base__wrapper--size;
     }

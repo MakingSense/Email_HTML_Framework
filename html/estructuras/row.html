@@ -1,0 +1,112 @@
+<!--
+OUTER_BACKGROUND_COLOR:     #FFFFFF
+INNER_BACKGROUND_COLOR:     #B5B5AD
+CONTAINER_WIDTH:            600   //Debe ser igual a $base__wrapper--size
+
+//Los paddings corresponden a $base__wrapper--padding;
+ROW_PADDING_TOP:            5px
+ROW_PADDING_BOTTOM:         5px
+ROW_PADDING_LEFT:           5px
+ROW_PADDING_RIGHT:          5px
+
+//borders
+ROW_BORDER_TOP_WIDTH:       0px;
+ROW_BORDER_TOP_COLOR:       transparent
+ROW_BORDER_TOP_TYPE:        solid;
+
+ROW_BORDER_RIGHT_WIDTH:     0px;
+ROW_BORDER_RIGHT_COLOR:     transparent
+ROW_BORDER_RIGHT_TYPE:      solid;
+
+ROW_BORDER_BOTTOM_WIDTH:    0px;
+ROW_BORDER_BOTTOM_COLOR:    transparent
+ROW_BORDER_BOTTOM_TYPE:     solid;
+
+ROW_BORDER_LEFT_WIDTH:      0px;
+ROW_BORDER_LEFT_COLOR:      transparent
+ROW_BORDER_LEFT_TYPE:       solid;
+-->
+
+
+
+<!--[if (gte mso 9)|(IE)]>
+<table width="100%" bgcolor="OUTER_BACKGROUND_COLOR">
+<tr>
+<td width="100%" >
+<![endif] -->
+	<!--[if !mso]><!-- -->
+<div class="wrapper--row" style="background-color: OUTER_BACKGROUND_COLOR">
+  <div class="wrapper--webkit" style="
+  background-color: INNER_BACKGROUND_COLOR;
+  padding-top: ROW_PADDING_TOP;
+  padding-right: ROW_PADDING_RIGHT;
+  padding-bottom: ROW_PADDING_BOTTOM;
+  padding-left: ROW_PADDING_LEFT;
+
+  border-top-width:     ROW_BORDER_TOP_WIDTH;
+  border-top-style:      ROW_BORDER_TOP_STYLE;
+  border-top-color:     ROW_BORDER_TOP_COLOR;
+
+  border-right-width:   ROW_BORDER_RIGHT_WIDTH;
+  border-right-style:    ROW_BORDER_RIGHT_STYLE;
+  border-right-color:   ROW_BORDER_RIGHT_COLOR;
+
+  border-bottom-width:  ROW_BORDER_BOTTOM_WIDTH;
+  border-bottom-style:   ROW_BORDER_BOTTOM_STYLE;
+  border-bottom-color:  ROW_BORDER_BOTTOM_COLOR;
+
+  border-left-width:    ROW_BORDER_LEFT_WIDTH;
+  border-left-style:     ROW_BORDER_LEFT_STYLE;
+  border-left-color:    ROW_BORDER_LEFT_COLOR;
+  ">
+
+    <!--[if (gte mso 9)|(IE)]>
+    <table width="CONTAINER_WIDTH" align="center" bgcolor="INNER_BACKGROUND_COLOR"
+      style="
+        background-color: INNER_BACKGROUND_COLOR;
+
+        border-top-width:     ROW_BORDER_TOP_WIDTH;
+        border-top-style:      ROW_BORDER_TOP_STYLE;
+        border-top-color:     ROW_BORDER_TOP_COLOR;
+
+        border-right-width:   ROW_BORDER_RIGHT_WIDTH;
+        border-right-style:    ROW_BORDER_RIGHT_STYLE;
+        border-right-color:   ROW_BORDER_RIGHT_COLOR;
+
+        border-bottom-width:  ROW_BORDER_BOTTOM_WIDTH;
+        border-bottom-style:   ROW_BORDER_BOTTOM_STYLE;
+        border-bottom-color:  ROW_BORDER_BOTTOM_COLOR;
+
+        border-left-width:    ROW_BORDER_LEFT_WIDTH;
+        border-left-style:     ROW_BORDER_LEFT_STYLE;
+        border-left-color:    ROW_BORDER_LEFT_COLOR;
+        ">
+    <tr>
+    <td style="
+    padding-top: ROW_PADDING_TOP;
+    padding-right: ROW_PADDING_RIGHT;
+    padding-bottom: ROW_PADDING_BOTTOM;
+    padding-left: ROW_PADDING_LEFT;
+    ">
+    <![endif]-->
+    <table class="wrapper--outer" align="center">
+    <tr>
+        <td>
+            [COLUMNS_GO_HERE]
+        </td>
+    </tr>
+    </table>
+    <!--[if (gte mso 9)|(IE)]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
+	<!--[if !mso]><!-- -->
+  </div>
+</div>
+		<!--<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
