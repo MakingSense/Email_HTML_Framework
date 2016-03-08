@@ -6,9 +6,9 @@
     .column--2,
     .column--3 {
         .col {
-            max-width: 100%;
+            max-width: 100% !important;
             img {
-                max-width: 100%;
+                max-width: 100%!important;
             }
         }
     }
