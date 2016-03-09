@@ -4,13 +4,14 @@
 
 .column--2,
 .column--3,
+.column--1,
 .sidebar {
     font-size: 0;
 
     text-align: center;
     .col {
         display: inline-block;
-
+        padding: $column__wrapper--padding;
         width: 100%;
 
         vertical-align: top;
