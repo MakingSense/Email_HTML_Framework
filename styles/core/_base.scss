@@ -29,4 +29,8 @@
     & .wrapper--content{
         width: 100%;
     }
+
+    & .ol-wrapper--outer{
+      width: $base__wrapper--size;
+    }
 }
