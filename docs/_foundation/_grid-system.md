@@ -130,7 +130,7 @@ Nuestro sistema de cuadrícula se compone de 8 columnas flexibles con un padding
 
 ## Grilla 1 de 1
 
-?> _TIP_ - Puedes copiar el snippet arriba a la derecha
+?> _TIP_ - Con esta grilla podemos indicar la base de un email
 
 <div style="background: #FFD665; width: 100%; padding: 15px 15px;">
   <p style="background: #FFE6A0; padding: 15px 15px; margin: 0; max-width: 100%; text-align: center; font-size: 1.4rem; font-weight: 500;">
@@ -138,7 +138,7 @@ Nuestro sistema de cuadrícula se compone de 8 columnas flexibles con un padding
   </p>
 </div>
 
-### Snippet HTML - Talla 1 de 1
+### Snippet HTML - Grilla 1 de 1
 
 ```html
 <tr>
@@ -148,11 +148,11 @@ Nuestro sistema de cuadrícula se compone de 8 columnas flexibles con un padding
     <tr>
     <td align="center" valign="top" width="600">
     <![endif]-->
-      <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;" bgcolor="#ffffff">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;">
         <tr>
-          <td align="center" valign="top" style="font-size:14px;">
+          <td align="center" valign="top">
 
-            Grilla uno
+           1/1
 
           </td>
         </tr>
@@ -201,11 +201,11 @@ Nuestro sistema de cuadrícula se compone de 8 columnas flexibles con un padding
           <td align="left" valign="top" width="295">
           <![endif]-->
           <div style="display:inline-block; max-width:295px; vertical-align:top; width:100%;">
-            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:295px;" class="deviceWidth">
+            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:295px;" class="container__fluid">
               <tr>
-                <td align="center" valign="top" style="font-size:14px;">
+                <td align="center" valign="top" style="padding: 10px 10px;">
 
-                  Grilla dos
+                  1/2
 
                 </td>
               </tr>
@@ -216,11 +216,11 @@ Nuestro sistema de cuadrícula se compone de 8 columnas flexibles con un padding
           <td align="left" valign="top" width="295">
           <![endif]-->
           <div style="display:inline-block; max-width:295px; vertical-align:top; width:100%;">
-            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:295px;" class="deviceWidth">
+            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:295px;" class="container__fluid">
               <tr>
-                <td align="center" valign="top" style="font-size:14px;">
+                <td align="center" valign="top" style="padding: 10px 10px;">
 
-                  Grilla dos
+                  1/2
 
                 </td>
               </tr>
@@ -285,24 +285,9 @@ Nuestro sistema de cuadrícula se compone de 8 columnas flexibles con un padding
           <div style="display:inline-block; max-width:195px; vertical-align:top; width:100%;">
             <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:195px;" class="deviceWidth">
               <tr>
-                <td align="center" valign="top" style="font-size:14px;">
+                <td align="center" valign="top">
 
-                  Grilla tres
-
-                </td>
-              </tr>
-            </table>
-          </div>
-          <!--[if (gte mso 9)|(IE)]>
-          </td>
-          <td align="left" valign="top" width="195">
-          <![endif]-->
-          <div style="display:inline-block; max-width:195px; vertical-align:top; width:100%;">
-            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:195px;" class="deviceWidth">
-              <tr>
-                <td align="center" valign="top" style="font-size:14px;">
-
-                  Grilla tres
+                  1/3
 
                 </td>
               </tr>
@@ -315,9 +300,24 @@ Nuestro sistema de cuadrícula se compone de 8 columnas flexibles con un padding
           <div style="display:inline-block; max-width:195px; vertical-align:top; width:100%;">
             <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:195px;" class="deviceWidth">
               <tr>
-                <td align="center" valign="top" style="font-size:14px;">
+                <td align="center" valign="top">
 
-                  Grilla tres
+                  1/3
+
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if (gte mso 9)|(IE)]>
+          </td>
+          <td align="left" valign="top" width="195">
+          <![endif]-->
+          <div style="display:inline-block; max-width:195px; vertical-align:top; width:100%;">
+            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:195px;" class="deviceWidth">
+              <tr>
+                <td align="center" valign="top">
+
+                  1/3
 
                 </td>
               </tr>
